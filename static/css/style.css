@@ -1,7 +1,24 @@
-body {
-            font-family:Arial,Helvetica,sans-serif
-        }
-h1 {
-            color :rgb(65, 28, 175);
-            font-size: 20px;
-        }
+:root{
+  --primary-color:#060025;
+  --secondary-color:#f99500;
+  --light-color:#f3f3f3;
+  --dark-color:#333;
+  --max-width:1100px
+}
+
+.bg-navbar{
+  background-color: var(--primary-color);
+}
+
+.color-nav-link{
+  color: var(--secondary-color);
+
+}
+
+main{
+  min-height: 90vh;
+}
+
+footer{
+  height: 10vh;
+}
